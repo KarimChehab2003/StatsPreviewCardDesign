@@ -1,0 +1,14 @@
+.image-filter {
+  filter: grayscale(1) sepia(1) hue-rotate(230deg) saturate(4) brightness(0.75)
+    contrast(1.1);
+}
+
+@media (min-width: 992px) {
+  .text-container {
+    text-align: start !important;
+  }
+
+  .image-border-radius-lg {
+    border-radius: 0px 15px 15px 0px !important;
+  }
+}
